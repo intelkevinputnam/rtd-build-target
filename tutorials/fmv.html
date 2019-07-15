@@ -96,29 +96,29 @@
       <dl>
         <dt>Language Versions</dt>
         
-          <dd><a href="/tutorials/fmv.html">English</a></dd>
+          <dd><a href="/clearlinux-rtd/tutorials/fmv.html">English</a></dd>
         
-          <dd><a href="/zh_CN/tutorials/fmv.html">Mandarin</a></dd>
+          <dd><a href="/clearlinux-rtd/zh_CN/tutorials/fmv.html">Mandarin</a></dd>
         
-          <dd><a href="/de/tutorials/fmv.html">German</a></dd>
+          <dd><a href="/clearlinux-rtd/de/tutorials/fmv.html">German</a></dd>
         
       </dl>
       <dl>
         <dt>Document Versions</dt>
         
-          <dd><a href="/tutorials/fmv.html">latest</a></dd>
+          <dd><a href="/clearlinux-rtd/tutorials/fmv.html">latest</a></dd>
         
-          <dd><a href="/lts/v1/tutorials/fmv.html">LTS 1</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v1/tutorials/fmv.html">LTS 1</a></dd>
         
-          <dd><a href="/lts/v2/tutorials/fmv.html">LTS 2</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v2/tutorials/fmv.html">LTS 2</a></dd>
         
-          <dd><a href="/lts/v3/tutorials/fmv.html">LTS 3</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v3/tutorials/fmv.html">LTS 3</a></dd>
         
-          <dd><a href="/lts/v4/tutorials/fmv.html">LTS 4</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v4/tutorials/fmv.html">LTS 4</a></dd>
         
-          <dd><a href="/lts/v5/tutorials/fmv.html">LTS 5</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v5/tutorials/fmv.html">LTS 5</a></dd>
         
-          <dd><a href="/lts/v6/tutorials/fmv.html">LTS 6</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v6/tutorials/fmv.html">LTS 6</a></dd>
         
       </dl>
       <dl>
@@ -153,7 +153,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#install-and-configure-a-cl-host-on-bare-metal">Install and configure a Clear Linux OS host on bare metal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#detect-loop-vectorization-candidates">Detect loop vectorization candidates</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#generate-the-fmv-patch">Generate the FMV patch</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ftt-project-example">FTT project example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fft-project-example-using-fftw">FFT project example using FFTW</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="aws-web/aws-web.html">Create and launch Clear Linux* OS from Amazon Web Services</a></li>
@@ -287,7 +287,7 @@ using a different architecture specialized instruction-set extensions. GCC
 6 introduces changes to FMV to make it even easier to bring architecture-
 based optimizations to the application code.</p>
 <p>In this tutorial we will use FMV on general code and on
-<abbr title="Fast Fourier Transform">FFT</abbr> library code. Upon completing the
+<abbr title="Fast Fourier Transform">FFT</abbr> library code (FFTW). Upon completing the
 tutorial, you will be able to use this technology on your code and use the
 libraries to deploy architecture-based optimizations to your application code.</p>
 <div class="section" id="install-and-configure-a-cl-host-on-bare-metal">
@@ -449,9 +449,9 @@ verify, enter the following commands:</p>
 </pre></div>
 </div>
 </div>
-<div class="section" id="ftt-project-example">
-<h2>FTT project example</h2>
-<p>To follow the same approach with a package like FFT, we must use the
+<div class="section" id="fft-project-example-using-fftw">
+<h2>FFT project example using FFTW</h2>
+<p>To follow the same approach with a package like FFTW, we must use the
 <cite>-fopt-info-vec</cite> flag to get a build log file similar to:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~/make-fmv-patch/make-fmv-patch.pl results/build.log fftw-3.3.6-pl2/
 
@@ -592,7 +592,7 @@ profiling of the specific execution of your application.</p>
     <p>
         &copy; Copyright 2019, many
       <span class="lastupdated">
-        Last updated on Jul 12, 2019.
+        Last updated on Jul 15, 2019.
       </span>
 
     </p>

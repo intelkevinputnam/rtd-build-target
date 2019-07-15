@@ -46,7 +46,7 @@
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
     <link rel="search" title="Suche" href="../search.html" />
     <link rel="next" title="mixer" href="mixer.html" />
-    <link rel="prev" title="Debug System" href="debug.html" />
+    <link rel="prev" title="Debug system" href="debug.html" />
 
 <link rel="stylesheet" href="../_static/tcs_theme.css" type="text/css" />
 
@@ -97,29 +97,29 @@
       <dl>
         <dt>Language Versions</dt>
         
-          <dd><a href="/tooling/ister.html">English</a></dd>
+          <dd><a href="/clearlinux-rtd/tooling/ister.html">English</a></dd>
         
-          <dd><a href="/zh_CN/tooling/ister.html">Mandarin</a></dd>
+          <dd><a href="/clearlinux-rtd/zh_CN/tooling/ister.html">Mandarin</a></dd>
         
-          <dd><a href="/de/tooling/ister.html">German</a></dd>
+          <dd><a href="/clearlinux-rtd/de/tooling/ister.html">German</a></dd>
         
       </dl>
       <dl>
         <dt>Document Versions</dt>
         
-          <dd><a href="/tooling/ister.html">latest</a></dd>
+          <dd><a href="/clearlinux-rtd/tooling/ister.html">latest</a></dd>
         
-          <dd><a href="/lts/v1/tooling/ister.html">LTS 1</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v1/tooling/ister.html">LTS 1</a></dd>
         
-          <dd><a href="/lts/v2/tooling/ister.html">LTS 2</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v2/tooling/ister.html">LTS 2</a></dd>
         
-          <dd><a href="/lts/v3/tooling/ister.html">LTS 3</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v3/tooling/ister.html">LTS 3</a></dd>
         
-          <dd><a href="/lts/v4/tooling/ister.html">LTS 4</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v4/tooling/ister.html">LTS 4</a></dd>
         
-          <dd><a href="/lts/v5/tooling/ister.html">LTS 5</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v5/tooling/ister.html">LTS 5</a></dd>
         
-          <dd><a href="/lts/v6/tooling/ister.html">LTS 6</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v6/tooling/ister.html">LTS 6</a></dd>
         
       </dl>
       <dl>
@@ -145,7 +145,7 @@
 <li class="toctree-l2"><a class="reference internal" href="autoproxy.html">Autoproxy</a></li>
 <li class="toctree-l2"><a class="reference internal" href="autospec.html">autospec</a></li>
 <li class="toctree-l2"><a class="reference internal" href="compatible-kernels.html">Kernels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="debug.html">Debug System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="debug.html">Debug system</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">ister.py image builder</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#description">Description</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#examples">Examples</a><ul>
@@ -266,7 +266,7 @@
             
   <div class="section" id="ister-py-image-builder">
 <span id="ister"></span><h1>ister.py image builder</h1>
-<p>The <a class="reference external" href="https://github.com/bryteise/ister">ister.py tool</a> is a template-based installer used by Clear Linux* OS to produce
+<p>The <a class="reference external" href="https://github.com/bryteise/ister">ister.py</a> tool is a template-based installer used by Clear Linux* OS to produce
 images for each release. The same ister tool is available for use in Clear Linux OS to
 create custom images based on an upstream image.</p>
 <div class="contents local topic" id="inhalt">
@@ -308,14 +308,15 @@ March 2017).</li>
 <p>Follow these steps to recreate an upstream image based on the image’s JSON
 configuration file:</p>
 <ol class="arabic">
-<li><p class="first">Install the <strong class="command">os-installer</strong> bundle. Refer to <a class="reference external" href="https://clearlinux.org/documentation/clear-linux/guides/maintenance/swupd-guide#adding-a-bundle">Install a bundle</a> for
-more details.</p>
+<li><p class="first">Install the <strong class="command">os-installer</strong> bundle. Refer to <a class="reference internal" href="swupd-guide.html#swupd-guide"><span class="std std-ref">swupd</span></a> for
+more information on installing bundles.</p>
 </li>
-<li><p class="first">Download the <a class="reference external" href="https://github.com/bryteise/ister">ister.py tool</a> and grant it sudo privileges.</p>
+<li><p class="first">Download the <a class="reference external" href="https://github.com/bryteise/ister">ister.py</a> tool and grant it sudo privileges.</p>
 </li>
-<li><p class="first">Download the JSON configuration file for the desired image:</p>
+<li><p class="first">Download the JSON configuration file for the desired image (located in
+<code class="file docutils literal notranslate"><span class="pre">config/image/</span></code>):</p>
 <ul class="simple">
-<li><a class="reference external" href="https://cdn.download.clearlinux.org/current/config/image/">Configuration files for the current release</a></li>
+<li><a class="reference external" href="https://cdn.download.clearlinux.org/current/">Current release</a></li>
 <li><a class="reference external" href="https://cdn.download.clearlinux.org/releases/">Previous releases</a> (only after March 2017)</li>
 </ul>
 <p>For a previous release, navigate to <a class="reference external" href="https://cdn.download.clearlinux.org/releases/">Previous releases</a>, select the version
@@ -361,7 +362,7 @@ the default path of the script to match your path.</p>
         <a href="mixer.html" class="btn btn-neutral float-right" title="mixer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="debug.html" class="btn btn-neutral float-left" title="Debug System" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="debug.html" class="btn btn-neutral float-left" title="Debug system" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -372,7 +373,7 @@ the default path of the script to match your path.</p>
     <p>
         &copy; Copyright 2019, many
       <span class="lastupdated">
-        Zuletzt aktualisiert am Juli 12, 2019.
+        Zuletzt aktualisiert am Juli 15, 2019.
       </span>
 
     </p>

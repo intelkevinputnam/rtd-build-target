@@ -97,29 +97,29 @@
       <dl>
         <dt>Language Versions</dt>
         
-          <dd><a href="/guides/deploy-at-scale.html">English</a></dd>
+          <dd><a href="/clearlinux-rtd/guides/deploy-at-scale.html">English</a></dd>
         
-          <dd><a href="/zh_CN/guides/deploy-at-scale.html">Mandarin</a></dd>
+          <dd><a href="/clearlinux-rtd/zh_CN/guides/deploy-at-scale.html">Mandarin</a></dd>
         
-          <dd><a href="/de/guides/deploy-at-scale.html">German</a></dd>
+          <dd><a href="/clearlinux-rtd/de/guides/deploy-at-scale.html">German</a></dd>
         
       </dl>
       <dl>
         <dt>Document Versions</dt>
         
-          <dd><a href="/guides/deploy-at-scale.html">latest</a></dd>
+          <dd><a href="/clearlinux-rtd/guides/deploy-at-scale.html">latest</a></dd>
         
-          <dd><a href="/lts/v1/guides/deploy-at-scale.html">LTS 1</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v1/guides/deploy-at-scale.html">LTS 1</a></dd>
         
-          <dd><a href="/lts/v2/guides/deploy-at-scale.html">LTS 2</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v2/guides/deploy-at-scale.html">LTS 2</a></dd>
         
-          <dd><a href="/lts/v3/guides/deploy-at-scale.html">LTS 3</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v3/guides/deploy-at-scale.html">LTS 3</a></dd>
         
-          <dd><a href="/lts/v4/guides/deploy-at-scale.html">LTS 4</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v4/guides/deploy-at-scale.html">LTS 4</a></dd>
         
-          <dd><a href="/lts/v5/guides/deploy-at-scale.html">LTS 5</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v5/guides/deploy-at-scale.html">LTS 5</a></dd>
         
-          <dd><a href="/lts/v6/guides/deploy-at-scale.html">LTS 6</a></dd>
+          <dd><a href="/clearlinux-rtd/lts/v6/guides/deploy-at-scale.html">LTS 6</a></dd>
         
       </dl>
       <dl>
@@ -328,11 +328,11 @@ create customized images based on Clear Linux OS. This is a level of responsibil
 that requires having more infrastructure and processes to adopt. In return,
 this approach <em>offers you a high degree of control and customization</em>.</p>
 <ul>
-<li><p class="first">Development systems which are generating bundles and updates should be
-sufficiently performant for the task and separate from the swupd update
-webservers which are serving update content to production machines.</p>
+<li><p class="first">Development systems that generate bundles and updates should have
+sufficient performance for the task and separate from the swupd update
+webservers that serve update content to production machines.</p>
 </li>
-<li><p class="first">swupd update webservers which are serving update content to
+<li><p class="first">swupd update webservers that serve update content to
 production machines (see <a class="reference external" href="https://clearlinux.org/documentation/clear-linux/guides/maintenance/mixer">mixer process</a> for more information) should be
 appropriately scaled.</p>
 <p>Your swupd update server is just like any other web application.
@@ -470,7 +470,7 @@ persistent and can be accessed on another server when an issue occurs.</p>
 <li><p class="first">Remote syslogging in Clear Linux OS is available through the
 <a class="reference external" href="https://www.freedesktop.org/software/systemd/man/systemd-journal-remote.service.html">systemd journal-remote service</a></p>
 </li>
-<li><p class="first">Clear Linux OS offers a <a class="reference external" href="https://clearlinux.org/features/telemetry">native telemetry solution</a> which can be a powerful tool
+<li><p class="first">Clear Linux OS offers a <a class="reference internal" href="telemetrics/telem-guide.html#telem-guide"><span class="std std-ref">Telemetrics</span></a>, which can be a powerful tool
 for a large deployment to quickly crowdsource issues of interest. Take
 advantage of this feature with careful consideration of the target audience
 and the kind of data that would be valuable, and expose events
@@ -536,7 +536,7 @@ challenges your monitoring systems, and business continuity plans.</p>
     <p>
         &copy; Copyright 2019, many
       <span class="lastupdated">
-        Zuletzt aktualisiert am Juli 12, 2019.
+        Zuletzt aktualisiert am Juli 15, 2019.
       </span>
 
     </p>
