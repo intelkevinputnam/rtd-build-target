@@ -35,6 +35,8 @@ Our documentation is divided into the following sections:
 :ref:`faq`
     Refer to our FAQ section to read commonly asked questions and answers.
 
+This is a test!
+
 .. toctree::
     :maxdepth: 2
     :hidden:
